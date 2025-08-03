@@ -65,20 +65,24 @@ If your research or project builds upon [**Wan2.1**](https://github.com/Wan-Vide
 
 ## Run Wan2.2
 
-#### Installation
+### Installation
+
 Clone the repo:
+
 ```sh
-git clone https://github.com/Wan-Video/Wan2.2.git
+git clone https://github.com/BenevolenceMessiah/Wan2.2.git
 cd Wan2.2
 ```
 
+Run the installation script `run_wan2.2.sh` or continue to manually install below:
+
 Install dependencies:
+
 ```sh
 # Ensure torch >= 2.4.0
 # If the installation of `flash_attn` fails, try installing the other packages first and install `flash_attn` last
 pip install -r requirements.txt
 ```
-
 
 #### Model Download
 
